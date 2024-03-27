@@ -13,9 +13,9 @@ int main() {
   scanf("%f", &b);
   printf("insira o valor de C: ");
   scanf("%f", &c);
-  float x1 = (-b + sqrt(b*b - 4*a*c))/(2*a);
-  float x2 = (-b - sqrt(b*b - 4*a*c))/(2*a);
-  printf("x1 = %f\n" , x1);
-  printf("x2 = %f\n" , x2);
+  double x1 = (-b + sqrt(b*b - 4*a*c))/(2*a);
+  double x2 = (-b - sqrt(b*b - 4*a*c))/(2*a);
+  printf("x1 = %f\n", x1);
+  printf("x2 = %f\n", x2);
   return 0;
 }
