@@ -19,6 +19,7 @@ const char* getResponse() {
         "Aguarde e verá",
         "Definitivamente sim",
         "Definitivamente não"
+        "Quase certeza"
     };
 
     int numResponses = sizeof(responses) / sizeof(responses[0]);
