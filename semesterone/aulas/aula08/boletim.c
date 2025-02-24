@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 int main() {
     float boletim[10][3]; // 10 linhas x 3 colunas
